@@ -1,0 +1,57 @@
+{
+  "name": "z1-theme",
+  "displayName": "z1",
+  "description": "z1 color themes for VSCode-compatible editors: Ocean (white, black accents), Default and Soft (dark).",
+  "version": "1.0.0",
+  "publisher": "z1",
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "white",
+    "monochrome",
+    "minimal",
+    "z1"
+  ],
+  "galleryBanner": {
+    "color": "#141414",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "z1 Ocean",
+        "label": "z1 Ocean",
+        "uiTheme": "vs",
+        "path": "./themes/z1-ocean.json"
+      },
+      {
+        "id": "z1 Default",
+        "label": "z1 Default",
+        "uiTheme": "vs-dark",
+        "path": "./themes/z1-default.json"
+      },
+      {
+        "id": "z1 Soft",
+        "label": "z1 Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/z1-soft.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayzitix/z1-theme.git"
+  },
+  "scripts": {
+    "package": "npx @vscode/vsce package"
+  }
+}

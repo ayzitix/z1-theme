@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="960" viewBox="0 0 1020 960">
+<rect width="1020" height="960" fill="#FFFFFF"/>
+<text x="44" y="62" font-family="monospace" font-size="30" fill="#000000">z1 Ocean</text>
+<text x="44" y="88" font-family="monospace" font-size="13" fill="#9099A2">458 colour keys · white surfaces · black accents</text>
+<rect x="44" y="112" width="300" height="74" fill="#FFFFFF" stroke="#E7ECF2"/>
+<text x="44" y="210" font-family="monospace" font-size="14" fill="#000000">paper · ink</text>
+<text x="44" y="230" font-family="monospace" font-size="13" fill="#9099A2">#FFFFFF</text>
+<rect x="360" y="112" width="300" height="74" fill="#000000" stroke="#E7ECF2"/>
+<text x="360" y="210" font-family="monospace" font-size="14" fill="#000000">ink</text>
+<text x="360" y="230" font-family="monospace" font-size="13" fill="#9099A2">#000000</text>
+<rect x="676" y="112" width="300" height="74" fill="#5A6773" stroke="#E7ECF2"/>
+<text x="676" y="210" font-family="monospace" font-size="14" fill="#000000">grey</text>
+<text x="676" y="230" font-family="monospace" font-size="13" fill="#9099A2">#5A6773</text>
+<rect x="44" y="276" width="300" height="74" fill="#7A848D" stroke="#E7ECF2"/>
+<text x="44" y="374" font-family="monospace" font-size="14" fill="#000000">muted</text>
+<text x="44" y="394" font-family="monospace" font-size="13" fill="#9099A2">#7A848D</text>
+<rect x="360" y="276" width="300" height="74" fill="#BEC9D3" stroke="#E7ECF2"/>
+<text x="360" y="374" font-family="monospace" font-size="14" fill="#000000">comment</text>
+<text x="360" y="394" font-family="monospace" font-size="13" fill="#9099A2">#BEC9D3</text>
+<rect x="676" y="276" width="300" height="74" fill="#6B7A88" stroke="#E7ECF2"/>
+<text x="676" y="374" font-family="monospace" font-size="14" fill="#000000">string</text>
+<text x="676" y="394" font-family="monospace" font-size="13" fill="#9099A2">#6B7A88</text>
+<rect x="44" y="440" width="300" height="74" fill="#E7ECF2" stroke="#E7ECF2"/>
+<text x="44" y="538" font-family="monospace" font-size="14" fill="#000000">border</text>
+<text x="44" y="558" font-family="monospace" font-size="13" fill="#9099A2">#E7ECF2</text>
+<rect x="360" y="440" width="300" height="74" fill="#ECECEC" stroke="#E7ECF2"/>
+<text x="360" y="538" font-family="monospace" font-size="14" fill="#000000">selection</text>
+<text x="360" y="558" font-family="monospace" font-size="13" fill="#9099A2">#ECECEC</text>
+<rect x="676" y="440" width="300" height="74" fill="#F4F4F4" stroke="#E7ECF2"/>
+<text x="676" y="538" font-family="monospace" font-size="14" fill="#000000">hover</text>
+<text x="676" y="558" font-family="monospace" font-size="13" fill="#9099A2">#F4F4F4</text>
+<rect x="44" y="604" width="300" height="74" fill="#B9B9B9" stroke="#E7ECF2"/>
+<text x="44" y="702" font-family="monospace" font-size="14" fill="#000000">editor selection</text>
+<text x="44" y="722" font-family="monospace" font-size="13" fill="#9099A2">#B9B9B9</text>
+<rect x="360" y="604" width="300" height="74" fill="#999999" stroke="#E7ECF2"/>
+<text x="360" y="702" font-family="monospace" font-size="14" fill="#000000">find</text>
+<text x="360" y="722" font-family="monospace" font-size="13" fill="#9099A2">#999999</text>
+<rect x="676" y="604" width="300" height="74" fill="#C0392B" stroke="#E7ECF2"/>
+<text x="676" y="702" font-family="monospace" font-size="14" fill="#000000">error</text>
+<text x="676" y="722" font-family="monospace" font-size="13" fill="#9099A2">#C0392B</text>
+<rect x="44" y="768" width="300" height="74" fill="#8A6A00" stroke="#E7ECF2"/>
+<text x="44" y="866" font-family="monospace" font-size="14" fill="#000000">warning</text>
+<text x="44" y="886" font-family="monospace" font-size="13" fill="#9099A2">#8A6A00</text>
+<rect x="360" y="768" width="300" height="74" fill="#2E7D4F" stroke="#E7ECF2"/>
+<text x="360" y="866" font-family="monospace" font-size="14" fill="#000000">added</text>
+<text x="360" y="886" font-family="monospace" font-size="13" fill="#9099A2">#2E7D4F</text></svg>

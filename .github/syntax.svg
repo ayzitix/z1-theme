@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="653" viewBox="0 0 700 653">
+<rect width="700" height="653" fill="#FFFFFF"/>
+<text x="40" y="54" font-family="monospace" font-size="26" fill="#000000">syntax</text>
+<text x="40" y="80" font-family="monospace" font-size="13" fill="#9099A2">three greys · bold keywords</text>
+<rect x="40" y="92" width="620" height="1" fill="#E7ECF2"/>
+<text x="40" y="108" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">1</text>
+<text x="58" y="108" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#BEC9D3">// Session runtime: history, tools and context</tspan></text>
+<text x="40" y="150" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">3</text>
+<text x="58" y="150" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000" font-weight="bold">import</tspan><tspan fill="#000000"> { Effect, Schema } </tspan><tspan fill="#000000" font-weight="bold">from</tspan><tspan fill="#6B7A88"> "effect"</tspan></text>
+<text x="40" y="192" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">5</text>
+<text x="58" y="192" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000" font-weight="bold">export class</tspan><tspan fill="#000000"> Agent {</tspan></text>
+<text x="40" y="219" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">6</text>
+<text x="58" y="219" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000">  private readonly history: Message[] = []</tspan></text>
+<text x="40" y="261" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">8</text>
+<text x="58" y="261" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000" font-weight="bold">  async</tspan><tspan fill="#000000"> run(prompt: string): Promise&lt;Result&gt; {</tspan></text>
+<text x="40" y="288" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">9</text>
+<text x="58" y="288" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000">    this.history.push({ role: </tspan><tspan fill="#6B7A88">"user"</tspan><tspan fill="#000000">, content: prompt })</tspan></text>
+<text x="40" y="329" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">11</text>
+<text x="58" y="329" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000" font-weight="bold">    for</tspan><tspan fill="#000000"> (</tspan><tspan fill="#000000" font-weight="bold">const</tspan><tspan fill="#000000"> tool </tspan><tspan fill="#000000" font-weight="bold">of</tspan><tspan fill="#000000"> tools) {</tspan></text>
+<text x="40" y="356" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">12</text>
+<text x="58" y="356" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000" font-weight="bold">      const</tspan><tspan fill="#000000"> result = </tspan><tspan fill="#000000" font-weight="bold">await</tspan><tspan fill="#000000"> this.call(tool, prompt)</tspan></text>
+<text x="40" y="398" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">14</text>
+<text x="58" y="398" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000" font-weight="bold">      if</tspan><tspan fill="#000000"> (!result.ok) {</tspan></text>
+<text x="40" y="425" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">15</text>
+<text x="58" y="425" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000">        console.warn(</tspan><tspan fill="#6B7A88">"tool failed"</tspan><tspan fill="#000000">)</tspan></text>
+<text x="40" y="452" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">16</text>
+<text x="58" y="452" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000" font-weight="bold">        continue</tspan></text>
+<text x="40" y="479" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">17</text>
+<text x="58" y="479" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000">      }</tspan></text>
+<text x="40" y="506" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">18</text>
+<text x="58" y="506" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000">    }</tspan></text>
+<text x="40" y="548" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">20</text>
+<text x="58" y="548" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000" font-weight="bold">    return</tspan><tspan fill="#000000"> { ok: </tspan><tspan fill="#000000" font-weight="bold">true</tspan><tspan fill="#000000">, messages: 12 }</tspan></text>
+<text x="40" y="575" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">21</text>
+<text x="58" y="575" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000">  }</tspan></text>
+<text x="40" y="602" font-family="monospace" font-size="12" fill="#C2C9D0" text-anchor="end">22</text>
+<text x="58" y="602" font-family="monospace" font-size="15" xml:space="preserve"><tspan fill="#000000">}</tspan></text></svg>
